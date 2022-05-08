@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/my-cv-with-react/static/js/main.012a565c.js",
+    "static/media/photoMe.jpg": "/my-cv-with-react/static/media/photoMe.bc6b4ea6886b70a7ef87.jpg",
+    "index.html": "/my-cv-with-react/index.html",
+    "main.012a565c.js.map": "/my-cv-with-react/static/js/main.012a565c.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.012a565c.js"
+  ]
+}
