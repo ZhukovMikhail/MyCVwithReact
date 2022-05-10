@@ -24,6 +24,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-size: 15px;
 }
+#root {
+  background-color: lightgray;
+  padding: 40px;
+}
+@media print {
+  #root {
+    background-color: #fff;
+    padding: 0;
+  }
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

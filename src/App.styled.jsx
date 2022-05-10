@@ -14,4 +14,9 @@ export const Container = styled.div`
   -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
   color: #14204d;
+  @media print {
+    margin-bottom: 0;
+    padding: 0;
+    box-shadow: none;
+  }
 `;
