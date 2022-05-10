@@ -12,7 +12,7 @@ export const MainInfo = () => {
         <h1>Mikhailo Zhukov</h1>
         <p style={{ wordSpacing: '5px' }}>
           I always try to achieve the best results thanks to my enthusiasm and
-          extraordinary dedication to your work. I can characterise myself as a
+          extraordinary dedication to work. I can characterise myself as a
           responsible, balanced, stress-resistant, diversified and multifaceted
           personality. I learn quickly and adapt to new environments. I looking
           for a job where I can constantly improve my knowledge and use my full
