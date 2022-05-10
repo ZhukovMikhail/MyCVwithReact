@@ -10,19 +10,11 @@ export const SidedeBar = () => {
       <Contacts>
         <li className="tel">
           <BsFillTelephoneFill />
-          <a href="tel:+380963694549" target="_blank" rel="noopener noreferrer">
-            +380963694549
-          </a>
+          <a href="tel:+380963694549">+380963694549</a>
         </li>
         <li className="mail">
           <BsFillEnvelopeFill />
-          <a
-            href="mailto:m_zhukov@i.ua"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            m_zhukov@i.ua
-          </a>
+          <a href="mailto:m_zhukov@i.ua">m_zhukov@i.ua</a>
         </li>
       </Contacts>
 
