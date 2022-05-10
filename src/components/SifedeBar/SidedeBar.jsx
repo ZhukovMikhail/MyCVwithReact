@@ -29,7 +29,7 @@ export const SidedeBar = () => {
       <SocialLink>
         <li>
           <a
-            href={'https:linkedin.com/in/michael-zhukov-8083a0220'}
+            href={'https://www.linkedin.com/in/michael-zhukov-8083a0220'}
             target={'_blank'}
             rel={'noopener noreferrer'}
           >
