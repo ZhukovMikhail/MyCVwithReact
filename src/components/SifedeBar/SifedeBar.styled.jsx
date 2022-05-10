@@ -1,5 +1,7 @@
 import styled from '@emotion/styled';
 
+import { BsLinkedin, BsGithub } from 'react-icons/bs';
+
 export const SideBox = styled.div`
   width: 240px;
   background-color: #5b608c;
@@ -51,5 +53,43 @@ export const Skills = styled.ul`
 
   li {
     list-style: inside;
+  }
+`;
+
+export const SocialLink = styled.ul`
+  display: flex;
+  justify-content: center;
+  margin-left: -10px;
+  margin-top: 10px;
+
+  & li {
+    margin-left: 10px;
+  }
+`;
+
+export const Linkedin = styled(BsLinkedin)`
+  width: 25px;
+  height: 25px;
+  transition: 300ms;
+  color: #02027a;
+  &:hover,
+  :focus {
+    color: orange;
+    /* background-color: #fff; */
+    /* transform: scale(1.25); */
+  }
+`;
+export const GitLink = styled(BsGithub)`
+  width: 25px;
+  height: 25px;
+  color: black;
+  border-radius: 50%;
+
+  transition: 300ms;
+  &:hover,
+  :focus {
+    color: orange;
+    /* background-color: #fff; */
+    /* transform: scale(1.25); */
   }
 `;

@@ -23,6 +23,7 @@ export const MainBox = styled.div`
     text-decoration: none;
     font-size: 12px;
     transition: 300ms;
+    color: #777;
     &:hover,
     :focus {
       color: orange;

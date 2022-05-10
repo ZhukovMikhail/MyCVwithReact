@@ -1,4 +1,13 @@
-import { SideBox, PhotoBox, IMG, Contacts, Skills } from './SifedeBar.styled';
+import {
+  SideBox,
+  PhotoBox,
+  IMG,
+  Contacts,
+  Skills,
+  SocialLink,
+  Linkedin,
+  GitLink,
+} from './SifedeBar.styled';
 import { BsFillTelephoneFill, BsFillEnvelopeFill } from 'react-icons/bs';
 
 export const SidedeBar = () => {
@@ -8,15 +17,35 @@ export const SidedeBar = () => {
         <IMG src={require('../../images/photoMe.jpg')} alt="photoMe" />
       </PhotoBox>
       <Contacts>
-        <li className="tel">
+        <li>
           <BsFillTelephoneFill />
-          <a href="tel:+380963694549">+380963694549</a>
+          <a href={'tel:+380963694549'}>+380963694549</a>
         </li>
-        <li className="mail">
+        <li>
           <BsFillEnvelopeFill />
-          <a href="mailto:m_zhukov@i.ua">m_zhukov@i.ua</a>
+          <a href={'mailto:m_zhukov@i.ua'}>m_zhukov@i.ua</a>
         </li>
       </Contacts>
+      <SocialLink>
+        <li>
+          <a
+            href={'https:linkedin.com/in/michael-zhukov-8083a0220'}
+            target={'_blank'}
+            rel={'noopener noreferrer'}
+          >
+            <Linkedin />
+          </a>
+        </li>
+        <li>
+          <a
+            href={'https://github.com/ZhukovMikhail'}
+            target={'_blank'}
+            rel={'noopener noreferrer'}
+          >
+            <GitLink />
+          </a>
+        </li>
+      </SocialLink>
 
       <Skills>
         <h4>TechSkills</h4>
