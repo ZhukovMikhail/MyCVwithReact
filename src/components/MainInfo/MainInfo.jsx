@@ -10,7 +10,7 @@ export const MainInfo = () => {
       <div>
         <h4>Front-End Developer</h4>
         <h1>Mikhailo Zhukov</h1>
-        <p style={{ wordSpacing: '5px' }}>
+        <p style={{ wordSpacing: '5px', textAlign: 'justify' }}>
           I always try to achieve the best results thanks to my enthusiasm and
           extraordinary dedication to work. I can characterise myself as a
           responsible, balanced, stress-resistant, diversified and multifaceted
