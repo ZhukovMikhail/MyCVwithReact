@@ -4,7 +4,7 @@ export const MainBox = styled.div`
   margin-left: 30px;
   p,
   span {
-    color: #777;
+    color: #565656;
     display: inline-block;
     margin-left: 5px;
   }
@@ -21,13 +21,13 @@ export const MainBox = styled.div`
   a {
     display: inline-block;
     text-decoration: none;
-    font-size: 12px;
     transition: 300ms;
     color: #777;
     &:hover,
     :focus {
       color: orange;
       text-decoration: underline;
+      transform: scaleX(1.05);
     }
   }
 

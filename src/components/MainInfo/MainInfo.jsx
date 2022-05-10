@@ -26,19 +26,19 @@ export const MainInfo = () => {
           <a href={'https://zhukovmikhail.github.io/goit-react-hw-05-movies/'}>
             {'https://zhukovmikhail.github.io/goit-react-hw-05-movies'}
           </a>
-          <span>{'my latest React.js home task'}</span>
+          <span>{'[React.js, React-router home-task]'}</span>
         </li>
         <li>
           <a href={'https://adv555.github.io/Filmoteka/'}>
             {'https://adv555.github.io/Filmoteka'}
           </a>
-          <span> {'JavaScript command project'}</span>
+          <span> {'[JavaScript command project]'}</span>
         </li>
         <li>
           <a href={'https://anastasiia-kisil.github.io/best-icecream/'}>
             {'https://anastasiia-kisil.github.io/best-icecream'}
           </a>
-          <span> {'HTML5 & CSS3 command project'}</span>
+          <span> {'[HTML5 & CSS3 command project]'}</span>
         </li>
       </ul>
       <div>
