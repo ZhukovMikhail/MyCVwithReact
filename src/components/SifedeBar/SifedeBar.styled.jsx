@@ -3,13 +3,13 @@ import styled from '@emotion/styled';
 import { BsLinkedin, BsGithub } from 'react-icons/bs';
 
 export const SideBox = styled.div`
-  width: 240px;
+  width: 280px;
   background-color: #5b608c;
   color: #fff;
 `;
 export const PhotoBox = styled.div`
   margin-top: 20px;
-  width: 200px;
+  width: 220px;
   display: flex;
 `;
 
@@ -21,7 +21,7 @@ export const IMG = styled.img`
 `;
 export const Contacts = styled.ul`
   margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 15px;
   text-decoration: none;
 
   & li {

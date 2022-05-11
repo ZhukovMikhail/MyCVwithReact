@@ -23,7 +23,12 @@ export const SidedeBar = () => {
         </li>
         <li>
           <BsFillEnvelopeFill />
-          <a href={'mailto:m_zhukov@i.ua'}>m_zhukov@i.ua</a>
+          <a
+            href={'mailto:mikhailo.zhukov.83@gmail.com'}
+            style={{ fontSize: '12px' }}
+          >
+            mikhailo.zhukov.83@gmail.com
+          </a>
         </li>
       </Contacts>
       <SocialLink>
