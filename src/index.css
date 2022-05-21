@@ -1,4 +1,4 @@
-/* @import-normalize; */
+@import '/node_modules/modern-normalize/modern-normalize.css';
 h1,
 h2,
 h3,
@@ -7,13 +7,14 @@ h5,
 h6,
 p {
   margin: 0px;
+  padding: 0px;
 }
 ul,
 ol,
 li {
   margin: 0px;
   padding: 0px;
-  list-style: none;
+  /* list-style: none; */
 }
 
 body {
