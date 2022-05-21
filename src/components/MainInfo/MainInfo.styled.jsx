@@ -5,6 +5,7 @@ export const MainBox = styled.div`
   margin-right: 40px;
   h1 {
     font-size: 60px;
+    margin-top: 150px;
   }
 
   a {
@@ -23,7 +24,6 @@ export const MainBox = styled.div`
       transform: scaleX(1.05);
     }
   }
-
   h1,
   h2 {
     margin-top: 20px;
@@ -51,4 +51,8 @@ export const Responibility = styled.div`
   margin-top: 10px;
   margin-left: 30px;
   /* padding-left: 20px; */
+`;
+export const Title = styled.div`
+  margin-top: 100px;
+  margin-bottom: 50px;
 `;

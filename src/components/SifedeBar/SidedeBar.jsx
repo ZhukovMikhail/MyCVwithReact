@@ -8,8 +8,10 @@ import {
   GitLink,
   InfoBox,
   PrintContacts,
+  QRcode,
 } from './SifedeBar.styled';
 import { BsFillTelephoneFill, BsFillEnvelopeFill } from 'react-icons/bs';
+import { BiMap } from 'react-icons/bi';
 
 import React from 'react';
 import { useMediaQuery } from 'react-responsive';
@@ -42,7 +44,8 @@ export const SidedeBar = () => {
                 </a>
               </li>
               <li>
-                <p>Kyiy, Ukraine</p>
+                <BiMap size={'20px'} />
+                <span style={{ marginLeft: '5px' }}> Kyiv, Ukraine</span>
               </li>
             </Contacts>
             <SocialLink>
@@ -115,6 +118,12 @@ export const SidedeBar = () => {
           <li>Ukranian - Native</li>
           <li>Russian - Native</li>
         </ul>
+        {isBPrint && (
+          <QRcode>
+            <p>web version of CV</p>
+            <img src={require('../../images/QRmyCv.png')} alt="photoMe" />
+          </QRcode>
+        )}
       </InfoBox>
     </SideBox>
   );

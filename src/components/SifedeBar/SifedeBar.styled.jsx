@@ -99,3 +99,13 @@ export const GitLink = styled(BsGithub)`
 export const PrintContacts = styled.ul`
   list-style-type: circle;
 `;
+export const QRcode = styled.div`
+  position: relative;
+  right: 20px;
+  margin-top: 15px;
+  img {
+    display: block;
+    margin-top: 5px;
+    width: 140px;
+  }
+`;

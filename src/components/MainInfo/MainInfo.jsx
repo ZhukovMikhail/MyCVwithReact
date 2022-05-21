@@ -1,18 +1,19 @@
-import { MainBox, Projects, Responibility } from './MainInfo.styled';
+import { MainBox, Projects, Responibility, Title } from './MainInfo.styled';
 export const MainInfo = () => {
   return (
     <MainBox>
       <div>
-        <h1>Mikhailo Zhukov</h1>
-        <h2>Front-End Developer</h2>
+        <Title>
+          <h1>Mikhailo Zhukov</h1>
+          <h2>Front-End Developer</h2>
+        </Title>
         <p style={{ wordSpacing: '5px', textAlign: 'justify' }}>
           I am a Front-End developer, looking for a full-time job in a company
-          that gives the opportunity to constantly improve my knowledge and use
-          my full potential. I have experience with HTML, CSS, JavaScript, React
+          that gives the opportunity of continuous development and
+          self-improvement. I have experience with HTML, CSS, JavaScript, React
           and Redux. I have practical experience of team work using Agile/Scrum
           methodology. I am a fast learner, responsible, and ready for difficult
-          tasks. Development, practice and work for the result are important for
-          me.
+          tasks.
         </p>
       </div>
       <h2> Projects: </h2>
