@@ -26,7 +26,7 @@ export const SidedeBar = () => {
         <IMG src={require('../../images/meBlurBG.jpg')} alt="photoMe" />
       </PhotoBox>
       <InfoBox>
-        <h4>Contact information</h4>
+        <h4>CONTACT INFORMATION</h4>
         {!isBPrint && (
           <>
             <Contacts>
@@ -93,7 +93,7 @@ export const SidedeBar = () => {
             </li>
           </PrintContacts>
         )}
-        <h4>Tech Skills</h4>
+        <h4>TECH SKILLS</h4>
         <ul>
           <li>React.js</li>
           <li>Redux</li>
@@ -105,14 +105,14 @@ export const SidedeBar = () => {
           <li>WebPack</li>
           <li>GIT</li>
         </ul>
-        <h4>Soft Skils</h4>
+        <h4>SOFT SKILLS</h4>
         <ul>
           <li>Teamwork</li>
           <li>Team building</li>
-          <li>Good ommunication </li>
-          <li>Decision-making</li>
+          <li>Good communication </li>
+          <li>Decision making</li>
         </ul>
-        <h4>Languages</h4>
+        <h4>LANGUAGES</h4>
         <ul>
           <li>English - Upper-Intermediate</li>
           <li>Ukranian - Native</li>

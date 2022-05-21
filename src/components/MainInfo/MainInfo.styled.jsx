@@ -4,13 +4,13 @@ export const MainBox = styled.div`
   margin-left: 40px;
   margin-right: 40px;
   h1 {
-    font-size: 60px;
+    font-size: 40px;
     margin-top: 150px;
   }
 
   h1,
   h2 {
-    margin-top: 20px;
+    margin-top: 25px;
     margin-bottom: 10px;
   }
   h3,

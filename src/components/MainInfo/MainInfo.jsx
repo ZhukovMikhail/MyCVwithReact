@@ -11,9 +11,10 @@ export const MainInfo = () => {
     <MainBox>
       <div>
         <Title>
-          <h1>Mikhailo Zhukov</h1>
-          <h2>Front-End Developer</h2>
+          <h1>MIKHAILO ZHUKOV</h1>
+          <h3>FRONT-END DEVELOPER</h3>
         </Title>
+        <h2>SUMMARY</h2>
         <p style={{ wordSpacing: '5px', textAlign: 'justify' }}>
           I am a Front-End developer, looking for a full-time job in a company
           that gives the opportunity of continuous development and
@@ -23,7 +24,7 @@ export const MainInfo = () => {
           tasks.
         </p>
       </div>
-      <h2> Projects: </h2>
+      <h2> PROJECTS: </h2>
       <Projects>
         <li>
           <WebLink
@@ -70,7 +71,7 @@ export const MainInfo = () => {
         </li>
       </Projects>
 
-      <h2>Work experience</h2>
+      <h2>WORK EXPERIENCE</h2>
       <h3>Client service manager, Head of department of car service.</h3>
       <span>{'2014-2022 |'}</span>
       <span>{' Car service companies'}</span>
@@ -111,14 +112,14 @@ export const MainInfo = () => {
         </ul>
       </Responibility>
 
-      <h2>Education</h2>
+      <h2>EDUCATION</h2>
       <h4>
         National Technical University of Ukraine "Kyiv Polytechnic Institute"
       </h4>
       <span>{'2001-2006 | '}</span>
       <span>{' Bachelor of Electromechanics'}</span>
 
-      <h2>Additional education</h2>
+      <h2>ADDITIONAL EDUCATION</h2>
       <h4>{'IT School GoIT | Kyiv, Ukraine'}</h4>
       <span>{'2021-2022 |'}</span>
       <span>{' Full stack developer'}</span>
