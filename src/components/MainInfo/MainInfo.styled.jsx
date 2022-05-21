@@ -8,22 +8,6 @@ export const MainBox = styled.div`
     margin-top: 150px;
   }
 
-  a {
-    display: inline-block;
-    text-decoration: none;
-    transition: 300ms;
-    color: rgb(20, 32, 77);
-
-    font-weight: 700;
-    font-size: 20px;
-
-    &:hover,
-    :focus {
-      color: orange;
-      text-decoration: underline;
-      transform: scaleX(1.05);
-    }
-  }
   h1,
   h2 {
     margin-top: 20px;
@@ -55,4 +39,25 @@ export const Responibility = styled.div`
 export const Title = styled.div`
   margin-top: 100px;
   margin-bottom: 50px;
+`;
+
+export const GitLink = styled.a`
+  margin-left: 5px;
+  color: rgb(20, 32, 77);
+`;
+export const WebLink = styled.a`
+  display: inline-block;
+  text-decoration: none;
+  transition: 300ms;
+  color: rgb(20, 32, 77);
+
+  font-weight: 700;
+  font-size: 20px;
+
+  &:hover,
+  :focus {
+    color: orange;
+    text-decoration: underline;
+    transform: scaleX(1.05);
+  }
 `;

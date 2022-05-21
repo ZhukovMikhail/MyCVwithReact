@@ -8,7 +8,7 @@ import {
   GitLink,
   InfoBox,
   PrintContacts,
-  QRcode,
+  // QRcode,
 } from './SifedeBar.styled';
 import { BsFillTelephoneFill, BsFillEnvelopeFill } from 'react-icons/bs';
 import { BiMap } from 'react-icons/bi';
@@ -44,8 +44,8 @@ export const SidedeBar = () => {
                 </a>
               </li>
               <li>
-                <BiMap size={'20px'} />
-                <span style={{ marginLeft: '5px' }}> Kyiv, Ukraine</span>
+                <BiMap size={'21px'} />
+                <span style={{ marginLeft: '3px' }}> Kyiv, Ukraine</span>
               </li>
             </Contacts>
             <SocialLink>
@@ -93,7 +93,7 @@ export const SidedeBar = () => {
             </li>
           </PrintContacts>
         )}
-        <h4>TechSkills</h4>
+        <h4>Tech Skills</h4>
         <ul>
           <li>React.js</li>
           <li>Redux</li>
@@ -105,7 +105,7 @@ export const SidedeBar = () => {
           <li>WebPack</li>
           <li>GIT</li>
         </ul>
-        <h4>SoftSkils</h4>
+        <h4>Soft Skils</h4>
         <ul>
           <li>Teamwork</li>
           <li>Team building</li>
@@ -118,12 +118,14 @@ export const SidedeBar = () => {
           <li>Ukranian - Native</li>
           <li>Russian - Native</li>
         </ul>
-        {isBPrint && (
+        {/* {isBPrint && (
           <QRcode>
-            <p>web version of CV</p>
+            <p style={{ fontSize: '14px', paddingLeft: '12px' }}>
+              Web version of CV
+            </p>
             <img src={require('../../images/QRmyCv.png')} alt="photoMe" />
           </QRcode>
-        )}
+        )} */}
       </InfoBox>
     </SideBox>
   );

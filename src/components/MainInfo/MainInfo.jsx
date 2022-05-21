@@ -1,4 +1,11 @@
-import { MainBox, Projects, Responibility, Title } from './MainInfo.styled';
+import {
+  MainBox,
+  Projects,
+  Responibility,
+  Title,
+  GitLink,
+  WebLink,
+} from './MainInfo.styled';
 export const MainInfo = () => {
   return (
     <MainBox>
@@ -19,30 +26,47 @@ export const MainInfo = () => {
       <h2> Projects: </h2>
       <Projects>
         <li>
-          <a href={'https://zhukovmikhail.github.io/goit-react-hw-05-movies/'}>
+          <WebLink
+            href={'https://zhukovmikhail.github.io/goit-react-hw-05-movies/'}
+          >
             {'Movies'}
-          </a>
+          </WebLink>
+
           <span>
             {
-              '  Website about popular movies. [React.js, React-router-V6, REST API, CSS-in-JS]'
+              '  Website about popular movies. [React.js, React-router-V6, REST API, CSS-in-JS].'
             }
           </span>
+          <GitLink href="https://github.com/ZhukovMikhail/goit-react-hw-05-movies">
+            {'GIT link'}
+          </GitLink>
         </li>
         <li>
-          <a href={'https://adv555.github.io/Filmoteka/'}>{'Filmoteka'}</a>
+          <WebLink href={'https://adv555.github.io/Filmoteka/'}>
+            {'Filmoteka'}
+          </WebLink>
+
           <span>
             {'  Application for choosing a movie. Role: Scrum Master.  '}
           </span>
-          <span>{'[HTML, SCSS, JavaScript, REST API, AJAX, WebPack]'}</span>
+          <span>{'[HTML, SCSS, JavaScript, REST API, AJAX, WebPack].'}</span>
+          <GitLink href="https://github.com/adv555/Filmoteka">
+            {'GIT link'}
+          </GitLink>
         </li>
         <li>
-          <a href={'https://anastasiia-kisil.github.io/best-icecream/'}>
+          <WebLink href={'https://anastasiia-kisil.github.io/best-icecream/'}>
             {'Ice Scream'}
-          </a>
+          </WebLink>
+
           <span>
-            {' '}
-            {'  company website. [HTML, SCSS, Parcel, Adaptive layout]'}
+            {
+              '  Ice Scream company website. [HTML, SCSS, Parcel, Adaptive layout].'
+            }
           </span>
+          <GitLink href="https://github.com/Anastasiia-Kisil/best-icecream">
+            {'GIT link'}
+          </GitLink>
         </li>
       </Projects>
 
@@ -62,9 +86,9 @@ export const MainInfo = () => {
         <h4> Achivments:</h4>
         <ul>
           <li>
-            Increase in the number of served customers for the period by 35%
+            increase in the number of served customers for the period by 35%
           </li>
-          <li>Increase in the client average check by 45%</li>
+          <li>increase in the client average check by 45%</li>
         </ul>
       </Responibility>
 
@@ -82,7 +106,7 @@ export const MainInfo = () => {
         </ul>
         <h4> Achivments:</h4>
         <ul>
-          <li>Reduced the value of the average payout by 15%</li>
+          <li>reduced the value of the average payout by 15%</li>
           <li>formed a network of partner services for direct settlement</li>
         </ul>
       </Responibility>

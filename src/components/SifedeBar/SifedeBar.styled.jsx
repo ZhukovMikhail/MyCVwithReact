@@ -77,8 +77,6 @@ export const Linkedin = styled(BsLinkedin)`
   &:hover,
   :focus {
     color: orange;
-    /* background-color: #fff; */
-    /* transform: scale(1.25); */
   }
 `;
 export const GitLink = styled(BsGithub)`
@@ -92,20 +90,18 @@ export const GitLink = styled(BsGithub)`
   &:hover,
   :focus {
     color: orange;
-    /* background-color: #fff; */
-    /* transform: scale(1.25); */
   }
 `;
 export const PrintContacts = styled.ul`
   list-style-type: circle;
 `;
-export const QRcode = styled.div`
-  position: relative;
-  right: 20px;
-  margin-top: 15px;
-  img {
-    display: block;
-    margin-top: 5px;
-    width: 140px;
-  }
-`;
+// export const QRcode = styled.div`
+//   position: relative;
+//   right: 20px;
+//   margin-top: 15px;
+//   img {
+//     display: block;
+//     margin-top: 5px;
+//     width: 140px;
+//   }
+// `;
