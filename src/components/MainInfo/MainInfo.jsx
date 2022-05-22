@@ -72,7 +72,7 @@ export const MainInfo = () => {
       </Projects>
 
       <h2>WORK EXPERIENCE</h2>
-      <h3>Client service manager, Head of department of car service.</h3>
+      <h3>Client service manager, Head of department of autoservice</h3>
       <span>{'2014-2022 |'}</span>
       <span>{' Car service companies'}</span>
       <Responibility>
