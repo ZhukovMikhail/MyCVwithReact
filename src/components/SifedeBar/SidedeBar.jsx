@@ -26,7 +26,7 @@ export const SidedeBar = () => {
         <IMG src={require('../../images/meBlurBG.jpg')} alt="photoMe" />
       </PhotoBox>
       <InfoBox>
-        <h4>CONTACT INFORMATION</h4>
+        <h4>CONTACTS</h4>
         {!isBPrint && (
           <>
             <Contacts>
@@ -51,7 +51,7 @@ export const SidedeBar = () => {
             <SocialLink>
               <li>
                 <a
-                  href={'https://www.linkedin.com/in/michael-zhukov-8083a0220'}
+                  href={'https://www.linkedin.com/in/mikhailozhukov'}
                   target={'_blank'}
                   rel={'noopener noreferrer'}
                 >
@@ -73,23 +73,33 @@ export const SidedeBar = () => {
         {isBPrint && (
           <PrintContacts>
             <li>
-              <span>+380963694549</span>
+              <a href="tel:380963694549">+380963694549</a>
             </li>
             <li>
-              <span>mikhailo.zhukov.83@gmail.com</span>
+              <a href="mailto:mikhailo.zhukov.83@gmail.com">
+                mikhailo.zhukov.83@gmail.com
+              </a>
             </li>
             <li>
-              <span>
-                https://www.linkedin.com/in/
-                <br />
-                michael-zhukov-8083a0220
-              </span>
+              <a
+                href={'https://www.linkedin.com/in/mikhailozhukov'}
+                target={'_blank'}
+                rel={'noopener noreferrer'}
+              >
+                www.linkedin.com/in/mikhailozhukov
+              </a>
             </li>
             <li>
-              <span>https://github.com/ZhukovMikhail</span>
+              <a
+                href={'https://github.com/ZhukovMikhail'}
+                target={'_blank'}
+                rel={'noopener noreferrer'}
+              >
+                https://github.com/ZhukovMikhail
+              </a>
             </li>
             <li>
-              <span>Kyiy, Ukraine</span>
+              <span>Kyiv, Ukraine</span>
             </li>
           </PrintContacts>
         )}
@@ -98,7 +108,7 @@ export const SidedeBar = () => {
           <li>React.js</li>
           <li>Redux</li>
           <li>REST API</li>
-          <li>JavaSkript</li>
+          <li>JavaScript</li>
           <li>HTML+CSS</li>
           <li>Responsive design</li>
           <li>SCSS</li>
@@ -115,7 +125,7 @@ export const SidedeBar = () => {
         <h4>LANGUAGES</h4>
         <ul>
           <li>English - Upper-Intermediate</li>
-          <li>Ukranian - Native</li>
+          <li>Ukrainian - Native</li>
           <li>Russian - Native</li>
         </ul>
         {/* {isBPrint && (

@@ -94,6 +94,10 @@ export const GitLink = styled(BsGithub)`
 `;
 export const PrintContacts = styled.ul`
   list-style-type: circle;
+  & a {
+    color: white;
+    text-decoration: none;
+  }
 `;
 // export const QRcode = styled.div`
 //   position: relative;

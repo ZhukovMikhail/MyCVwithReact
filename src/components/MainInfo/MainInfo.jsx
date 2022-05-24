@@ -72,7 +72,9 @@ export const MainInfo = () => {
       </Projects>
 
       <h2>WORK EXPERIENCE</h2>
-      <h3>Client service manager, Head of department of autoservice</h3>
+      <h3>
+        Client service manager, Head of department of auto maintenance service
+      </h3>
       <span>{'2014-2022 |'}</span>
       <span>{' Car service companies'}</span>
       <Responibility>
@@ -84,7 +86,7 @@ export const MainInfo = () => {
           <li>development of personal motivation of staff</li>
           <li>increasing the efficiency of production</li>
         </ul>
-        <h4> Achivments:</h4>
+        <h4> Achievement:</h4>
         <ul>
           <li>
             increase in the number of served customers for the period by 35%
@@ -105,7 +107,7 @@ export const MainInfo = () => {
           <li>formation of a stack of partner service stations</li>
           <li>development of a loss settlement methodology</li>
         </ul>
-        <h4> Achivments:</h4>
+        <h4> Achievement:</h4>
         <ul>
           <li>reduced the value of the average payout by 15%</li>
           <li>formed a network of partner services for direct settlement</li>
