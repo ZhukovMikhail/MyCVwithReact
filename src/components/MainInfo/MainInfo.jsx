@@ -91,7 +91,7 @@ export const MainInfo = () => {
           <li>
             increase in the number of served customers for the period by 35%
           </li>
-          <li>increase in the client average check by 45%</li>
+          <li>increase in the client average repair cost by 45%</li>
         </ul>
       </Responibility>
 
