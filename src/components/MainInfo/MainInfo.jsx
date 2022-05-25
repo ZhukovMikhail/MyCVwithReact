@@ -118,7 +118,7 @@ export const MainInfo = () => {
       <h4>
         National Technical University of Ukraine "Kyiv Polytechnic Institute"
       </h4>
-      <span>{'2001-2006 | '}</span>
+      <span>{'2001-2007 | '}</span>
       <span>{' Bachelor of Electromechanics'}</span>
 
       <h2>ADDITIONAL EDUCATION</h2>
