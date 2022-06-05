@@ -23,7 +23,7 @@ export const SidedeBar = () => {
   return (
     <SideBox>
       <PhotoBox>
-        <IMG src={require('../../images/meBlurBG.jpg')} alt="photoMe" />
+        <IMG src={require('../../images/meBlurBG2.jpg')} alt="photoMe" />
       </PhotoBox>
       <InfoBox>
         <h4>CONTACTS</h4>
