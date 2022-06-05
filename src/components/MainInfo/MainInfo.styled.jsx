@@ -37,7 +37,7 @@ export const Responibility = styled.div`
   /* padding-left: 20px; */
 `;
 export const Title = styled.div`
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 50px;
 `;
 

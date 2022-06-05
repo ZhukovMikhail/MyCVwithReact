@@ -27,6 +27,19 @@ export const MainInfo = () => {
       <h2> PROJECTS: </h2>
       <Projects>
         <li>
+          <WebLink href={'https://zhukovmikhail.github.io/weather-widget/'}>
+            {'Weather-Widget'}
+          </WebLink>
+          <span>
+            {
+              '  Weater web aplication. [React.js, @Mui, REST API, @styled-component].'
+            }
+          </span>
+          <GitLink href="https://github.com/ZhukovMikhail/weather-widget">
+            {'GIT link'}
+          </GitLink>
+        </li>
+        <li>
           <WebLink
             href={'https://zhukovmikhail.github.io/goit-react-hw-05-movies/'}
           >
