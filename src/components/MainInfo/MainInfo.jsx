@@ -16,12 +16,14 @@ export const MainInfo = () => {
         </Title>
         <h2>SUMMARY</h2>
         <p style={{ wordSpacing: '5px', textAlign: 'justify' }}>
-          I am a Front-End developer, looking for a full-time job in a company
-          that gives the opportunity of continuous development and
-          self-improvement. I have experience with HTML, CSS, JavaScript, React
-          and Redux. I have practical experience of team work using Agile/Scrum
-          methodology. I am a fast learner, responsible, and ready for difficult
-          tasks.
+          I am looking for a job as a junior front-end developer, I have
+          experience with HTML, CSS, SCSS, CSS-IN-JS, response design,
+          JavaScript, Ajax, Rest-Api/CRUD, React, Redux, RTK-QUERY, Axios, @Mui,
+          Bootstrap, Webpack, GIT. In addition I have practical teamwork skills
+          using Agile/Scrum methodologies. I really like to work in a team, if
+          there is an opportunity, I take responsibility for decision-making and
+          always try to play a leading role. I really want to develop in the
+          field of IT and create my own IT company.
         </p>
       </div>
       <h2> PROJECTS: </h2>

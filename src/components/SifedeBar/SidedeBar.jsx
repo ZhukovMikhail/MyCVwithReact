@@ -125,6 +125,7 @@ export const SidedeBar = () => {
         <h4>LANGUAGES</h4>
         <ul>
           <li>English - Upper-Intermediate</li>
+          <li>Polish - Intermediate</li>
           <li>Ukrainian - Native</li>
           <li>Russian - Native</li>
         </ul>
