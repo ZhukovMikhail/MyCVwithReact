@@ -23,7 +23,7 @@ export const MainInfo = () => {
           using Agile/Scrum methodologies. I really like to work in a team, if
           there is an opportunity, I take responsibility for decision-making and
           always try to play a leading role. I really want to develop in the
-          field of IT and create my own IT company.
+          field of IT and become experienced team-lead.
         </p>
       </div>
       <h2> PROJECTS: </h2>
