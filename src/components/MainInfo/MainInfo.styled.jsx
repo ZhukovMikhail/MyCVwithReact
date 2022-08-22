@@ -10,12 +10,12 @@ export const MainBox = styled.div`
 
   h1,
   h2 {
-    margin-top: 25px;
+    margin-top: 22px;
     margin-bottom: 10px;
   }
   h3,
   h4 {
-    margin-top: 10px;
+    margin-top: 5px;
   }
 
   p {
@@ -25,7 +25,7 @@ export const MainBox = styled.div`
 export const Projects = styled.ul`
   padding-left: 20px;
   li {
-    margin-top: 5px;
+    margin-top: 2px;
 
     list-style: square;
   }
@@ -37,8 +37,8 @@ export const Responibility = styled.div`
   /* padding-left: 20px; */
 `;
 export const Title = styled.div`
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 `;
 
 export const GitLink = styled.a`

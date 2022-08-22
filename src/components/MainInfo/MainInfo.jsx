@@ -107,6 +107,10 @@ export const MainInfo = () => {
             increase in the number of served customers for the period by 35%
           </li>
           <li>increase in the client average repair cost by 45%</li>
+          <li>
+            with my leading participation, in 2019, a new car maintenance
+            service was launched from scratch
+          </li>
         </ul>
       </Responibility>
 
@@ -139,7 +143,7 @@ export const MainInfo = () => {
       <h2>ADDITIONAL EDUCATION</h2>
       <h4>{'IT School GoIT | Kyiv, Ukraine'}</h4>
       <span>{'2021-2022 |'}</span>
-      <span>{' Full stack developer'}</span>
+      <span>{' Front-end developer'}</span>
     </MainBox>
   );
 };
